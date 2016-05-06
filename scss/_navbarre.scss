@@ -1,0 +1,33 @@
+.barrenav{
+  position:fixed;
+  top:0;
+  background:white;
+  text-align:center;
+  width:100%;
+  z-index:20;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.3);
+
+  ul{
+    margin:0;
+
+    li{
+      transition:0.5s;
+      padding-top:13px;
+      padding-bottom:13px;
+      padding-left:15px;
+      padding-right:15px;
+      /*margin-left:30px;
+      margin-right:30px;*/
+      margin-bottom:0;
+      display:inline-block;
+    }
+
+    .active{
+      background:#34495e;
+
+      a{
+        color:white;
+      }
+    }
+  }
+}

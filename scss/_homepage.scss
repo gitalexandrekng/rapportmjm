@@ -1,0 +1,48 @@
+html, body{
+  height:100%;
+}
+
+.homepage{
+  display:flex;
+  height:100%;
+  width:100%;
+  background:#ecf0f1;
+
+  .in{
+    padding:50px;
+    background:white;
+    margin:auto;
+    max-width:1000px;
+    border-radius:5px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+
+    .red{
+      color:red;
+    }
+
+    .homepage-title{
+      text-align:center;
+
+      h1{
+        text-transform: uppercase;
+        margin-bottom:30px;
+      }
+
+      h1, h3{
+        font-family:"Raleway", "Helvetica Neue", sans-serif;
+      }
+    }
+
+    .formulaire{
+      margin-top:50px;
+
+      #inputting{
+        //margin:0;
+      }
+
+      #submitting{
+        width:100%;
+      }
+    }
+  }
+}
